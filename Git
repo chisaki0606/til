@@ -4,5 +4,8 @@ $ git grpe (画像ファイル名)
 $ git status
 編集記録が記録されている
 
+$ git checkout -f
+編集の記録を取り消す
+
 HEADとは？
 今自分が作業している場所を示すポインタ
