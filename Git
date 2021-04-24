@@ -7,5 +7,17 @@ $ git status
 $ git checkout -f
 編集の記録を取り消す
 
-HEADとは？
+●HEADとは？
 今自分が作業している場所を示すポインタ
+
+●GitHubのCircleCIでエラーに疑問を感じたときの操作方法
+All checks have failed
+↓
+Details
+↓
+deplay - Failed
+(クリック)
+↓
+Rerun▼
+Rerun Workflow from Failed
+
