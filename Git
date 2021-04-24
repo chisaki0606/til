@@ -21,3 +21,26 @@ deplay - Failed
 Rerun▼
 Rerun Workflow from Failed
 
+●新しいブランチで作業しているときに前のブランチで修正が見つかったときの退避→修正→元のブランチに戻るまで
+Aを編集中
+↓
+GitHubのエラーに気づく(Bで作業済み)
+↓
+Aのブランチを退避させるために下記のコマンドを実行する
+$ git stash
+↓
+$ git checkout B
+↓
+Bのブランチでmasterを取り込むために下記のコマンドを実行する。(Aの直前の編集なら意味がないけどAとBの間に編集があった場合にBのブランチを最新にする意味合いがある)
+$ git fetch origin master
+↓
+$ git marge origin/master
+↓
+Bを編集
+↓
+PRをするときの要領でpushまで行う
+↓
+$ git checkout A
+↓
+退避した内容を元に戻す
+$ git stash pop
