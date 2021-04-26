@@ -34,7 +34,7 @@ $ git checkout B
 Bのブランチでmasterを取り込むために下記のコマンドを実行する。(Aの直前の編集なら意味がないけどAとBの間に編集があった場合にBのブランチを最新にする意味合いがある)
 $ git fetch origin master
 ↓
-$ git marge origin/master
+$ git merge origin/master
 ↓
 Bを編集
 ↓
