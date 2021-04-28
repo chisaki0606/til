@@ -7,8 +7,10 @@ $ git status
 $ git checkout -f
 編集の記録を取り消す
 
+
 ●HEADとは？
 今自分が作業している場所を示すポインタ
+
 
 ●GitHubのCircleCIでエラーに疑問を感じたときの操作方法
 All checks have failed
@@ -20,6 +22,7 @@ deplay - Failed
 ↓
 Rerun▼
 Rerun Workflow from Failed
+
 
 ●新しいブランチで作業しているときに前のブランチで修正が見つかったときの退避→修正→元のブランチに戻るまで
 Aを編集中
@@ -44,3 +47,40 @@ $ git checkout A
 ↓
 退避した内容を元に戻す
 $ git stash pop
+
+
+●他の方が修正してくれたブランチを自分の環境に取り込んで編集して再度pushする方法
+
+$ git checkout <branch>(編集するブランチ)
+※他のブランチで編集作業をしていたら対象のブランチに移動する
+↓
+$ git pull
+(他の方が修正してくれた内容を自分のブランチに取り込む)
+
+※もし下記のエラーがでたら!!
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch>
+
+
+$ git branch --set-upstream-to=origin/<branch>(編集中のブランチ)
+↓
+$ git pull
+(再度プルする)
+
+編集を行う
+↓
+編集完了
+↓
+$ git add .
+↓
+$ git commit -m "コミットメッセージ"
+↓
+$ git push
+※強制プッシュは絶対にしない!!
