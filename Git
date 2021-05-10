@@ -97,3 +97,11 @@ git add .
 git rebase --continue  ←指定したファイルからrebaseするコマンド
 ↓
 git push origin (対象のブランチ) --force
+
+
+●(コミット後に)ブランチの内容を全て消す方法
+masterに強制チェックアウト
+$ git checkout -f master
+↓
+ブランチを強制削除
+$ git branch -D (消したいブランチ)
