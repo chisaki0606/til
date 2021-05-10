@@ -84,3 +84,17 @@ $ git commit -m "コミットメッセージ"
 ↓
 $ git push
 ※強制プッシュは絶対にしない!!
+
+
+●コンフリクトが起きたときの対処方法
+コンフリクトが起きている箇所の編集
+↓
+対象のブランチで
+git pull --rebase origin master  ←rebaseするファイルを指定
+↓
+git add .
+↓
+git rebase --continue  ←指定したファイルからrebaseするコマンド
+↓
+git push origin (対象のブランチ) --force
+※自信がありませんがこの場合は強制pushで問題ないか...
