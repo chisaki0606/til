@@ -105,3 +105,7 @@ $ git checkout -f master
 ↓
 ブランチを強制削除
 $ git branch -D (消したいブランチ)
+
+
+●ESLintを無視したコミットのやり方
+$ git commit --no-verify -m "コミットメッセージ"
