@@ -1,0 +1,10 @@
+●Lintの無効化
+// eslint-disable-line 
+// eslint-disable-next-line
+
+●stylelintの無効化
+/* stylelint-disable-next-line */
+
+
+特定の内容のエラーだけを無効化にする場合は後ろの方につける。例えば下記のように
+/* stylelint-disable-next-line no-descending-specificity */
