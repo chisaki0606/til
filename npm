@@ -19,3 +19,14 @@ $ npm install -g npm@6.14.0
 
 #バクの原因となるソースコードを発見し警告するコマンド
 $ npm run lint
+
+●npmアンインストール
+% sudo npm uninstall npm -g
+sudo: npm: command not found
+r0206@R0206 ~ % lsbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom | while read i; do sudo rm /usr/local/${i}; done$ sudo rm -rf /usr/local/lib/node /usr/local/lib/node_modules /var/db/receipts/org.nodejs.*
+pipe while> 
+※control + cで中断して大丈夫 
+r0206@R0206 ~ % sudo rm -rf ~/.npm
+r0206@R0206 ~ % npm -v
+zsh: command not found: npm
+こうなったら成功
