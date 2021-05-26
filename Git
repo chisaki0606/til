@@ -87,14 +87,15 @@ $ git push
 
 
 ●コンフリクトが起きたときの対処方法
+
+対象のブランチで
+git pull --rebase origin master  ←rebaseするファイルを指定
+↓
 コンフリクトが起きている箇所の編集
 ↓
 git add .
 ↓
 git commit -m "コミットメッセージ"
-↓
-対象のブランチで
-git pull --rebase origin master  ←rebaseするファイルを指定
 ↓
 git rebase --continue  ←指定したファイルからrebaseするコマンド
 ↓
