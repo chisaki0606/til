@@ -114,3 +114,8 @@ $ git commit --no-verify -m "コミットメッセージ"
 $ git add . の前に $ git rm --cached (除外したいファイルを記述)
 ※ファイル名であれば最初にピリオドを忘れない)
 
+●途中でstyleの崩れなどに気づいたときに過去の差分を確認する方法
+$ git log
+$ git reset --hard <コミットのログ>
+もとに戻るときは $ git pull
+作業はmasterで問題ない
