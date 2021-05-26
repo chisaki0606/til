@@ -1,0 +1,9 @@
+●リモートリポジトリでエラーが起きて解消した場合
+# masterブランチへ移動
+git checkout master
+# git pullでmasterを最新に
+git pull origin master
+# 開発用ブランチへ移動
+git checkout 開発用ブランチ
+# mergeコマンドでmaserの内容を取り込む
+git merge origin master
