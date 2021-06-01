@@ -7,3 +7,6 @@ git pull origin master
 git checkout 開発用ブランチ
 # mergeコマンドでmaserの内容を取り込む
 git merge origin master
+
+●npmでパッケージをインストールしたあとのエラー
+npm ciを実行する
