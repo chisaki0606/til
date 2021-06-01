@@ -30,6 +30,3 @@ r0206@R0206 ~ % sudo rm -rf ~/.npm
 r0206@R0206 ~ % npm -v
 zsh: command not found: npm
 ※こうなったら成功
-
-●パッケージのバージョンをあげる
-npm install -D パッケージ名
