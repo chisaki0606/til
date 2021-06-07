@@ -128,5 +128,6 @@ $ git reset --hard <コミットのログ>
 ●SCSSのファイルがどこにあるかを確認する方法
 git grep "scss/xxx"
 
+
 ●テストを無視してpushをする方法
 git push --no-verify
