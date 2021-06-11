@@ -7,3 +7,9 @@ git pull origin master
 git checkout 開発用ブランチ
 # mergeコマンドでmaserの内容を取り込む
 git merge origin master
+
+●DevToolsで値の中身を確認する方法
+該当のブラウザでDevToolsを開く
+Sourcesでcommand + oでファイル検索を開いて対象のファイル名を検索して開く
+値の中身を確認したい箇所をBreakpointsに指定する
+ブラウザ上でイベントを発火させて中身を確認した値にカーソルを合わせる
