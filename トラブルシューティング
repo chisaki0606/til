@@ -13,3 +13,5 @@ git merge origin master
 Sourcesでcommand + oでファイル検索を開いて対象のファイル名を検索して開く
 値の中身を確認したい箇所をBreakpointsに指定する
 ブラウザ上でイベントを発火させて中身を確認した値にカーソルを合わせる
+
+console.log()をESLintで禁止している場合console.error()で問題がない
