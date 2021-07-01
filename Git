@@ -131,17 +131,3 @@ git grep "scss/xxx"
 
 ●テストを無視してpushをする方法
 git push --no-verify
-
-
-●npmパッケージの最新版を調べてアップデートする方法
-$ npm outdated //パッケージの最新版がわかる一覧の表示
-npm install <パッケージ名>@<バージョン>
-(※例 $npm install stylelint-config-standard@13.13.1)
-
-●npmパッケージをアンインストールして再インストールする方法
-▷アンインストール
-npm uninstall <パッケージ名> --save-dev
-npm uninstall <パッケージ名> --save
-npm uninstall <パッケージ名>
-▷インストール
-npm install --save-dev <パッケージ名>
