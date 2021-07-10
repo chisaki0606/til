@@ -131,3 +131,9 @@ git grep "scss/xxx"
 
 ●テストを無視してpushをする方法
 git push --no-verify
+
+
+●GitHubでssh接続する手順
+https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+https://blog.cloud-acct.com/posts/u-github-ssh/
+
