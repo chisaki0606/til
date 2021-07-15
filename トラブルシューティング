@@ -20,3 +20,7 @@ console.log()をESLintで禁止している場合console.error()で問題がな�
 VSCのコマンド上で cd でuser直下に移動する
 user直下で下記のコマンドを実行する
 code --disable-extensions . 
+
+●Mockデータを削除してしまったりして元に戻せなくなったときの対処方法
+LocalStorageから履歴を削除する
+https://belltree.life/localstorage/
