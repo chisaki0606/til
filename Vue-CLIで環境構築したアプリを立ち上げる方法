@@ -1,0 +1,4 @@
+最初にプロジェクトに移動する
+npm run serveを実行する
+下記にアクセスする
+http://localhost:8080
