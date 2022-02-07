@@ -137,3 +137,14 @@ git push --no-verify
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
 https://blog.cloud-acct.com/posts/u-github-ssh/
 
+
+●作業途中のブランチを最新にするやり方
+※ もし、作業途中のものでcommit出来るものがあればcommitしておく
+# masterブランチへ移動
+git checkout master
+# git pullでmasterを最新に
+git pull origin master
+# 開発用ブランチへ移動
+git checkout 開発用ブランチ
+# mergeコマンドでmaserの内容を取り込む
+git merge origin master
