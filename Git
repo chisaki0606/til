@@ -147,4 +147,4 @@ git pull origin master
 # 開発用ブランチへ移動
 git checkout 開発用ブランチ
 # mergeコマンドでmaserの内容を取り込む
-git merge origin master
+git merge origin master(コミット済みの編集内容は変更されない)
