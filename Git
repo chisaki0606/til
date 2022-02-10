@@ -30,7 +30,7 @@ Aを編集中
 GitHubのエラーに気づく(Bで作業済み)
 ↓
 Aのブランチを退避させるために下記のコマンドを実行する
-$ git stash
+$ git stash(新規ファイル(未追跡)などがある場合は$ git stash -u)
 ↓
 $ git checkout B
 ↓
