@@ -158,8 +158,10 @@ Change baseを選択する
 mergeする
 Create pull requestは実行しない
 
+
 ●他の人がブランチを追従したときに読み込む方法
 git pull origin <作業ブランチ名>
+
 
 ●VSCで「リベースしています」と表示された場合
 作業ブランチで
