@@ -1,2 +1,17 @@
+●before or afterが効かない
+content: ""; を記述する
+
+●divを左右中央に寄せる
+margin: 0 auto;
+
 ●右寄せ
-https://jsnotice.com/posts/2021-04-29/#flex%E3%82%92%E4%BD%BF%E3%81%86%E6%96%B9%E6%B3%95
+justify-content: flex-end;
+
+●横並び
+display: flex;
+
+●等間隔で横幅いっぱいに並べる
+justify-content: space-between;
+
+●上下中央寄せ
+align-items: center;
