@@ -15,3 +15,6 @@ justify-content: space-between;
 
 ●上下中央寄せ
 align-items: center;
+
+●中身の要素を中央に揃える
+justify-content: center;
