@@ -18,3 +18,7 @@ align-items: center;
 
 ●中身の要素を中央に揃える
 justify-content: center;
+
+●div要素縦並び
+display: flex;
+flex-direction: column;
