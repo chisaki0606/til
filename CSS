@@ -24,3 +24,6 @@ flex-direction: column;
 
 ●inline要素の中央寄せ
 text-align: center;
+
+●要素と要素の間の長さ指定
+gap: 30px;
