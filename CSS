@@ -21,3 +21,6 @@ justify-content: center;
 
 ●div要素縦並び
 flex-direction: column;
+
+●inline要素の中央寄せ
+text-align: center;
