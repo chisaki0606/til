@@ -88,26 +88,10 @@ $ git push
 
 ●コンフリクトが起きたときの対処方法
 
-対象のブランチで
-git pull --rebase origin master  ←rebaseするファイルを指定
-↓
-コンフリクトが起きている箇所の編集
-↓
-git add .
-↓
-git commit -m "コミットメッセージ"
-↓
-git rebase --continue  ←指定したファイルからrebaseするコマンド
-↓
-git push origin (対象のブランチ) --force
-
-
-●(コミット後に)ブランチの内容を全て消す方法
-masterに強制チェックアウト
-$ git checkout -f master
-↓
-ブランチを強制削除
-$ git branch -D (消したいブランチ)
+This branch has conflicts that must be resolved の下にある
+Use the command lineをクリックして手順を確認する
+参照リンク
+https://note.com/koushikagawa/n/nf87b410ee6d6
 
 
 ●ESLintを無視したコミットのやり方
