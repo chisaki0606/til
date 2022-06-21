@@ -30,3 +30,9 @@ gap: 30px;
 
 ●改行コード(\n)を含む改行されない文字列を改行させるCSS
 white-space: pre-line;
+
+●spanタグで先頭がずれてしまう場合のタグの書き方
+<span
+ class="hogehoge"
+ >ここにテキスト<span
+>
