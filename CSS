@@ -27,3 +27,6 @@ text-align: center;
 
 ●要素と要素の間の長さ指定
 gap: 30px;
+
+●改行コード(\n)を含む改行されない文字列を改行させるCSS
+white-space: pre-line;
