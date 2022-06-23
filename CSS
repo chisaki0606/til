@@ -36,3 +36,9 @@ white-space: pre-line;
  class="hogehoge"
  >ここにテキスト<span
 >
+
+●BEMでclassのバインド
+:class="`Block__element--${
+　　　<条件(プロパティや関数など)> ? 'modifier' : ''
+}`"
+class="Block__element"
