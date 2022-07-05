@@ -151,3 +151,8 @@ git pull origin <作業ブランチ名>
 作業ブランチで
 git rebase --abort
 を実行する
+
+
+●他の人のブランチを落とす方法
+git fetch
+git checkout 他人のリモートブランチ名
