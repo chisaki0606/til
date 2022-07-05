@@ -42,3 +42,7 @@ white-space: pre-line;
 　　　<条件(プロパティや関数など)> ? 'modifier' : ''
 }`"
 class="Block__element"
+
+●子要素に右寄せや下寄せなどを指定する
+margin-top: auto;(下寄せ)
+margin-left: auto;(右寄せ)
