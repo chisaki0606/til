@@ -50,3 +50,12 @@ margin-left: auto;(右寄せ)
 ●before(after)の要素(アイコン画像のような)を上下中央寄せにする
 position:relative;
 top:3px;(必要に応じたpx数)
+
+●ブロック要素よりも大きい幅の指定でかつ親要素の幅をこえない指定(ネガティブマージン)
+指定したい要素で
+margin-right: calc(50% - 50vw);
+margin-left: calc(50% - 50vw);
+
+はみ出したくない親要素で指定
+padding-right: calc(50vw - 50%);
+padding-left: calc(50vw - 50%);
